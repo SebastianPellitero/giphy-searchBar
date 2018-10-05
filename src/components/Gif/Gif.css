@@ -1,0 +1,21 @@
+.gif-item {
+	position: relative;
+	margin: 10px;
+}
+
+.gif-item__heart {
+	background: #f5deb3;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	bottom: 10px;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-align: center;
+	align-items: center;
+	right: 10px;
+	cursor: pointer;
+}
